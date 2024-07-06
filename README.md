@@ -96,36 +96,36 @@ We welcome contributions from the community to help improve and expand the YAAN 
 To set up the YAAN Platform locally, follow these steps:
 
 1. **Clone the Repository**: 
-    \`\`\`bash
+    ```
     git clone https://github.com/yourusername/YAAN-Platform.git
     cd YAAN-Platform
-    \`\`\`
+    ```
 
 2. **Backend Setup**:
     - Ensure you have Python and Django installed.
     - Navigate to the backend directory and install the required dependencies:
-        \`\`\`bash
+        ```
         pip install -r requirements.txt
-        \`\`\`
+        ```
     - Run the Django development server:
-        \`\`\`bash
+        ```
         python manage.py runserver
-        \`\`\`
+        ```
 
 3. **Frontend Setup**:
     - Ensure you have Node.js and npm installed.
     - Navigate to the frontend directory and install the required dependencies:
-        \`\`\`bash
+        ```
         npm install
-        \`\`\`
+        ```
     - Start the React development server:
-        \`\`\`bash
+        ```
         npm start
-        \`\`\`
+        ```
 
 4. **Access the Platform**:
-    - Open your web browser and navigate to \`http://localhost:3000\` to access the frontend.
-    - The backend will be running at \`http://localhost:8000\`.
+    - Open your web browser and navigate to http://localhost:3000 to access the frontend.
+    - The backend will be running at http://localhost:8000.
 
 ### License
 
